@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #548786;
+    text-align: center;
+}
+.container{
+    height: 70vh;/*viewport height of any screen in %*/
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.game{
+    height: 59vmin;/*vmin mean 1 less height of viewport*/
+    width: 59vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #fff;/* that's provide after reset color as we want*/
+}
+#reset{
+    padding: 1rem;
+    background-color: #191913;
+    color:#fff ;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.25rem;
+}
+#msg{
+    padding: 1rem;
+    color:#fff;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.50rem;
+
+}
+.msgcontainer{
+    height: 30vmin;/*viewport height of any screen in %*/
+
+}
+#newbtn{
+    padding: 1rem;
+    background-color: #191913;
+    color:#fff ;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.25rem;
+}
+.hide{
+    display: none;
+}
